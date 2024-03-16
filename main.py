@@ -7,7 +7,7 @@ def main():
     recorder = AudioRecorder()
     # Llamar al método para grabar audio
     recorder.record()
-    api_request=GPT3Chatbot(api_key='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')
+    api_request=GPT3Chatbot(api_key='')
     # Crear una instancia de Transcriber
     transcriber = Transcriber()
     transcriber.transcribe_latest_recording()
