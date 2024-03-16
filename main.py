@@ -1,7 +1,7 @@
 from recorder import AudioRecorder
 from transcription import Transcriber
-from first_API_request import GPT3Chatbot
-from voice_interpretation import TextoAVoz
+from chatBot import GPT3Chatbot
+from voiceInterpreter import TextoAVoz
 def main():
     # Crear una instancia de AudioRecorder
     recorder = AudioRecorder()
