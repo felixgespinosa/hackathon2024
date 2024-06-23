@@ -46,7 +46,6 @@ class AudioRecorder:
 
         print(f'Grabación guardada como {filename}.wav')
 
-# Ejemplo de uso
 if __name__ == "__main__":
     recorder = AudioRecorder()
     recorder.record()
