@@ -19,7 +19,7 @@ class TextoAVoz:
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
 
-# Uso de la clase
+
 texto = "Hola, este es Chawimi bienvenido al Hackathon del 2024"
 texto_a_voz = TextoAVoz(texto)
 texto_a_voz.convertir_texto_a_audio()
