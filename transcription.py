@@ -35,7 +35,6 @@ class Transcriber:
                 # Save list of transcribed recordings so that we don't transcribe the same one again
                 self.transcribed.append(latest_recording)
 
-# Ejemplo de uso
 if __name__ == "__main__":
     transcriber = Transcriber()
     while True:
