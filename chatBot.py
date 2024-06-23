@@ -16,7 +16,6 @@ class GPT3Chatbot:
         print("Chatbot: ", response)
         return response
 
-# Ejemplo de uso
 if __name__ == "__main__":
     bot = GPT3Chatbot(api_key='xxxxxxxxxx')
     bot.start_chat()
